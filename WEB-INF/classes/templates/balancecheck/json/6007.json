@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "6007",
+		"title": "Customized Error",
+		"detail": "Functionality is not implemented for this endpoint"
+	}]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="expires" content="-1">
+
+    <title>Liquidity Portal</title>
+<!-- uncomment below under local environment.
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.2.5/polyfill.js"></script>
+-->
+      <link rel="icon" href="/fotrd/src/images/favicon.ico" type="image/x-icon">
+       
+     		<script type="text/javascript">
+
+ 		 function loadjscssfile(){
+
+
+ 		 						var xhttp = new XMLHttpRequest();
+ 		 						xhttp.onreadystatechange = function() {
+ 		 						if (this.readyState == 4 && this.status == 200) {
+ 		 							var response = xhttp.responseText;
+ 		 							var responseArr = response.split('~');
+ 		 							var apiurl		= responseArr[0];
+ 		 							var bundleurl	= responseArr[1];
+
+ 		 							sessionStorage.setItem("apiurl", apiurl.trim());
+
+ 		 							var filename	= bundleurl.trim()+'/'+'admin.460a02cf83d5dc2b4d13.js';
+
+ 		 							var script = document.createElement("script");
+ 		 							script.type = "text/javascript";
+ 		 							script.src = filename;
+ 		 							document.body.appendChild(script);
+
+ 		 						}
+ 		 						};
+
+ 	 						xhttp.open("GET", "/fotrd/auth/bundle", false);
+ 		 						xhttp.send();
+
+ 				}
+ 		</script>
+    <style>
+        a { cursor: pointer; }
+        .help-block { font-size: 12px; }
+        html{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div> 
+ 	    <script type="text/javascript">
+ 	    	loadjscssfile();
+ 	    </script>
+<script type="text/javascript" src="admin.460a02cf83d5dc2b4d13.js"></script></body>
+</html>

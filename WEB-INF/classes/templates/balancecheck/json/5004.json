@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "5004",
+		"title": "Customized Error",
+		"detail": "Failed while parsing Date of Birth"
+	}]
+}

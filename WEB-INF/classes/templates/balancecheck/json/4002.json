@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4002",
+		"title": "Customized Error",
+		"detail": "Request System is Mandatory.  This will be returned in case this becomes mandatory. As of now this is optional"
+	}]
+}

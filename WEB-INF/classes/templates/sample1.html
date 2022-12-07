@@ -1,0 +1,39 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<HTML>
+<head>
+<SCRIPT>
+function doPost(){
+	document.forms[0].actionFlag.value="SUBMIT";
+	document.forms[0].action="/lp/fotrd/BucSSOSignon";
+	document.forms[0].method="POST";
+	document.forms[0].submit();
+}
+function doBack(){
+	document.forms[0].actionFlag.value="";
+	document.forms[0].action="/lp/fotrd/BucSSOSignon";
+	document.forms[0].method="POST";
+	document.forms[0].submit();
+}
+</SCRIPT>
+
+</head>
+<body>
+<form>
+	<input type="hidden" name="actionFlag" value=""/>
+	<TABLE>
+		<TR height='25px'>
+			<TD></TD>
+		</TR>
+
+
+	<TR>
+		<TD>Enter xml: </TD>
+		<TD>
+		<TEXTAREA  style="resize: none;" name='SAMLResponse' cols='70' rows='5'></TEXTAREA>
+		</TD>
+		<TD><input type="button" value="Submit" onClick="doPost();"/></TD>
+	</TR>
+	</TABLE>
+</form>
+</body>
+</html>

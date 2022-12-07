@@ -1,0 +1,60 @@
+{
+    "data": [ 
+        {
+            "id": "8888000001",
+            "type": "locatecustomerdataV3",
+            "attributes": {
+                "customerId": 8888000001,
+                "sourceSystem": "CS",
+                "customerType": "D",
+                "customerClass": "B",
+                "businessCustomerData": {
+                    "name": "UK CLIENT FIRM",
+                    "registeredName": "UK CLIENT FIRM.",
+                    "activityDescription": ""
+                },
+                "address": [
+                    {
+                        "addressLine1": "UK UHN",
+                        "addressLine2": "UK'E HXFEZ",
+                        "addressLine3": "UXGN EHGZZH",
+                        "addressLine4": "NXFMUFE",
+                        "addressLine5": "AEUZ XI MFT",
+                        "addressLine6": "",
+                        "postCode": "IM1 4LN",
+                        "addressIndicator": "T",
+                        "addressStartDate": "1997-04-29"
+                    }
+                ]
+            }
+        }     ,
+         {
+	            "id": "8888000001",
+	            "type": "locatecustomerdataV3",
+	            "attributes": {
+	                "customerId": 8888000001,
+	                "sourceSystem": "CS",
+	                "customerType": "D",
+	                "customerClass": "B",
+	                "businessCustomerData": {
+	                    "name": "UK CLIENT FIRM",
+	                    "registeredName": "UK CLIENT FIRM.",
+	                    "activityDescription": ""
+	                },
+	                "address": [
+	                    {
+	                        "addressLine1": "UK UHN",
+	                        "addressLine2": "UK'E HXFEZ",
+	                        "addressLine3": "UXGN EHGZZH",
+	                        "addressLine4": "NXFMUFE",
+	                        "addressLine5": "AEUZ XI MFT",
+	                        "addressLine6": "",
+	                        "postCode": "IM1 4LN",
+	                        "addressIndicator": "T",
+	                        "addressStartDate": "1997-04-29"
+	                    }
+	                ]
+	            }
+        }    
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "data" : {
+    "type" : "MorningstarDetails",
+    "attributes" : { }
+  },
+  "errors" : [ {
+    "code" : "NDF01",
+    "title" : "No data available for selected ISIN(s)",
+    "detail" : "LU0135703889"
+  } ]
+}

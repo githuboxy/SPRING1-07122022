@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "7003",
+		"title": "Customized Error",
+		"detail": "MF Test Bed property file is not present"
+	}]
+}

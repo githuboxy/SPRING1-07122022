@@ -1,0 +1,16 @@
+{
+    "errors": [
+        {
+            "id": "34f1ddbc3d984e4db86dc86b2d5657c5",
+            "code": "BAD_REQUEST",
+            "title": "Message Validation failed.",
+            "detail": "Invalid value 429667 for uri parameter accountIds. Invalid value 429667.",
+            "meta": {
+                "dateTime": "2022-11-10T09:10:17+0000",
+                "runtimeVersion": "3.9.4",
+                "apiName": "sodssoldaccountsenq",
+                "apiVersion": "3.1.059"
+            }
+        }
+    ]
+}

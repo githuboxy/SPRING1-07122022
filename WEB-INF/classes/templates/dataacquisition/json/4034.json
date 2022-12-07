@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4034",
+		"title": "Customized Error",
+		"detail": "Mode selection is invalid"
+	}]
+}

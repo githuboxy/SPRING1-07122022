@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "7002",
+		"title": "Customized Error",
+		"detail": "MF bean received is of different type"
+	}]
+}

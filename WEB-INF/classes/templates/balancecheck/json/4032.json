@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4032",
+		"title": "Customized Error",
+		"detail": "No valid Input.  Request parameters are not valid"
+	}]
+}

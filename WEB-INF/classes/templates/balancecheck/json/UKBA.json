@@ -1,0 +1,27 @@
+{
+	"data": [{
+		"id": "20165620934569",
+		"type": "accountdata",
+		"attributes": {
+			"sortCode": 201656,
+			"accountNumber": "20934569",
+			"accountId": 20165620934569,
+			"addressList": [],
+			"profileMarker": [],
+			"limits": [],
+			"balances": [{
+				"balanceCode": {
+					"code": "3",
+					"decode": "running cleared for fate"
+				},
+				"balanceTypeName": "running cleared for fate",
+				"balanceAmount": {
+					"amount": 0.00,
+					"currency": "GBP"
+				}
+			}],
+			"notificationDiaries": [],
+			"longNames": []
+		}
+	}]
+}

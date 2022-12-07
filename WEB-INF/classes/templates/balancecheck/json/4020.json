@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4020",
+		"title": "Customized Error",
+		"detail": "Failure acquiring queue connection / Account data is not in sync real-time"
+	}]
+}

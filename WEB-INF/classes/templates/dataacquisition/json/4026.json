@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4026",
+		"title": "Customized Error",
+		"detail": "Both Customer Identifier and Source System are Required"
+	}]
+}

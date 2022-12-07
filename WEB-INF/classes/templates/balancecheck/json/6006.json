@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "6006",
+		"title": "Customized Error",
+		"detail": "Search functionality deprecated"
+	}]
+}

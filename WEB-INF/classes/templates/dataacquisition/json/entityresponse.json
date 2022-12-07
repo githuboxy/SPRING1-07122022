@@ -1,0 +1,66 @@
+[{
+	"id": 40001104,
+	"formation_date": "1925-08-07T00:00:00",
+	"refreshed_on": "2021-11-11T22:46:07.3277914+00:00",
+	"country_of_operation": "GB",
+	"short_name": "ABC TEST",
+	"name": "Barclays Bank PLC",
+	"address": [{
+		"is_primary": false,
+		"id": 1431,
+		"type": "M"
+	}, {
+		"is_primary": true,
+		"id": 172626,
+		"type": "C"
+	}, {
+		"is_primary": false,
+		"id": 172626,
+		"type": "R"
+	}, {
+		"is_primary": false,
+		"id": 484938,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 484942,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 633776,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186509,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186512,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186518,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186535,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186588,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186620,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1186647,
+		"type": "M"
+	}, {
+		"is_primary": false,
+		"id": 1193857,
+		"type": "M"
+	}],
+	"location_of_operation": 1633
+}]

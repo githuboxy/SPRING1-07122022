@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "6004",
+		"title": "Customized Error",
+		"detail": "CS - Data Issue - Latest Address Not Found"
+	}]
+}

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: LIQUIDITY
+Implementation-Version: 1.0
+Build-Jdk-Spec: 1.8
+Created-By: Maven WAR Plugin 3.3.2
+Main-Class: com.lp.LiquidityApplication
+

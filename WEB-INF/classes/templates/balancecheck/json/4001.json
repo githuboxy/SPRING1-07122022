@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4001",
+		"title": "Customized Error",
+		"detail": "Request Id is Mandatory / correlation-id is Mandatory"
+	}]
+}

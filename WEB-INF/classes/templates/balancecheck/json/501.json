@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4032",
+		"title": "Error",
+		"detail": "The CSID entered does not exist. Please enter a correct CSID"
+	}]
+}

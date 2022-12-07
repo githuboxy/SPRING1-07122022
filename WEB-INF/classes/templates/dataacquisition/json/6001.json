@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "6001",
+		"title": "Customized Error",
+		"detail": "No Barclay Card holdings found for TR customer"
+	}]
+}

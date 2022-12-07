@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "7001",
+		"title": "Customized Error",
+		"detail": "BEAN Creation Exception, Please contact ODS Team"
+	}]
+}

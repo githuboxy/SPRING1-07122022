@@ -1,0 +1,23 @@
+{
+	"data": [{
+		"id": "56756701",
+		"type": "accountData",
+		"attributes": {
+			"balanceDetails": [{
+				"balanceDate": "2020-07-01",
+				"clearedBalance": {
+					"amount": -0.40,
+					"currency": "USD"
+				},
+				"ledgerBalance": {
+					"amount": -0.40,
+					"currency": "USD"
+				},
+				"fateBalance": {
+					"amount": 50000.40,
+					"currency": "USD"
+				}
+			}]
+		}
+	}]
+}

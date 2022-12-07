@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "5001",
+		"title": "Customized Error",
+		"detail": "Mongo DB is Down"
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "6002",
+		"title": "Customized Error",
+		"detail": "No NBR Auth User found for TR customer"
+	}]
+}

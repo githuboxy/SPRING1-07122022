@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4023",
+		"title": "Customized Error",
+		"detail": "Both Card Number and Card Type are Required"
+	}]
+}

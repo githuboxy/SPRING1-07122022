@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "4003",
+		"title": "Customized Error",
+		"detail": "Request Channel is Mandatory.  This will be returned in case this becomes mandatory. As of now this is optional"
+	}]
+}

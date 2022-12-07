@@ -1,0 +1,7 @@
+{
+	"errors": [{
+		"code": "5000",
+		"title": "Customized Error",
+		"detail": "Failed due to internal severe error"
+	}]
+}

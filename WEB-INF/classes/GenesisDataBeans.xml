@@ -1,0 +1,332 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	   http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+<util:map id="OLISUMFL" map-class="java.util.LinkedHashMap">
+ 	<entry key="CALFEED1"    	value="WS-PP-33561-DEP-"/>
+	<entry key="CALFEED2"    	value="-000"/>
+	<entry key="CALBALTYPE"    	value="1"/>
+	<entry key="CALOMNIACCTFLG"    	value="Y"/>
+	<entry key="CALSRCSYSID"    	value="33561"/>
+	<entry key="CALSRCBRANCH"    	value=""/>
+	
+	<entry key="MMDAFEED1"    	value="WS-PP-33429-DEP-"/>
+	<entry key="MMDAFEED2"    	value="-000"/>
+	<entry key="MMDABALTYPE"    	value="1"/>
+	<entry key="MMDAOMNIACCTFLG"    value="N"/>
+	<entry key="MMDASRCSYSID"    	value="33429"/>
+	<entry key="MMDASRCBRANCH"    	value=""/>
+</util:map>
+
+ <util:map id="OLISUMFLHEAD" map-class="java.util.LinkedHashMap">
+ 	<entry key="FILESPERATOR"    	value="_"/>
+ 	<entry key="FILESTARTSWITH"     value="gen"/>
+ 	<entry key="FILEDATATYPE"   	value="oli"/>
+ 	<entry key="FILEINDICATOR"  	value="cb"/>
+ 	<entry key="FILETYPE"  		value="dat"/>
+ 	<entry key="ZIPTYPE"  		value="gz"/>
+ 	<entry key="HEAD"  		value="H"/>
+ 	<entry key="TRAILER"  		value="T"/>
+ 	<entry key="DETAILS"  		value="D"/>
+ 	
+ </util:map>
+ 
+ <util:map id="COMONBAL" map-class="java.util.LinkedHashMap">
+ 	<entry key="SRCSYSID"    	value="33429"/>
+ 	<entry key="RECTYPE"     	value="A"/>
+ 	<entry key="LEGNUMBER"   	value="0"/>
+ 	<entry key="PRODSYSID"   	value="33429"/>
+ 	<entry key="LEDSYSID"  	 	value="1001"/>
+ 	<entry key="BLEDGCNTRY"  	value="US"/>
+ 	<entry key="LOCALDEPT"  	value=""/>
+ 	<entry key="FRACCTMETHOD"  	value="Y"/>
+ 	<entry key="FRLEVEL"  	 	value="1"/>
+ 	<entry key="FRSAFLCODE"  	value="00000"/>
+ 	<entry key="GAAPINDICTOR"  	value="U"/>
+ 	<entry key="OPENFIELD1"  	value="000"/>
+ 	<entry key="LOCALAFLCODE"  	value="00000"/>
+  </util:map>
+  
+<util:map id="COMONBALHEAD" map-class="java.util.LinkedHashMap">
+	<entry key="FILESPERATOR"    	value="_"/>
+	<entry key="FILESTARTSWITH"     value="gn"/>
+	<entry key="CSIAPPID"   	value="33429"/>
+	<entry key="FILEDATATYPE"   	value="dep"/>
+	<entry key="FILEINDICATOR"  	value="cb"/>
+	<entry key="SUBSYSID"  		value="000"/>
+	<entry key="FILETYPE"  		value="dat"/>
+	<entry key="ZIPTYPE"  		value="gz"/>
+	<entry key="HEAD"  		value="H"/>
+	<entry key="HEADF"  		value="F"/>
+	<entry key="HEADFEED"  		value="FEED"/>
+	<entry key="TRAILER"  		value="T"/>
+	<entry key="TSRCSYSID"  	value="33429"/>
+	<entry key="TTDLV"  		value="TDLV15.0"/>
+	<entry key="DETAILS"  		value="D"/>
+ </util:map>
+
+ <util:map id="INDTDEPO" map-class="java.util.LinkedHashMap">
+ 	<entry key="SRCSYSID"                	value="33429"/> 
+	<entry key="PROSYSIDNTIF"           	value="33429"/> 
+	<entry key="RECTYPE"                 	value="A"/>
+	<entry key="GENLEDSYSID"             	value="1001"/>
+	<entry key="GLOPROIDNTIF"            	value="DEP"/>                                               
+	<entry key="BROKINDITOR"             	value="3"/>
+	<entry key="ESRINDITOR"              	value="N"/>
+	<entry key="STRDEPPROINTOR"          	value="N"/>
+	<entry key="RGHTOFSTINTOR"           	value="N"/>
+	<entry key="ROLLINDTOR"              	value="N"/>
+	<entry key="DIRDEPINDTOR"            	value="N"/>
+	<entry key="DELSTAINDTOR"            	value="H"/>
+	<entry key="INTERTRATETYPE"          	value="2"/>
+	<entry key="RATEINDEX"               	value="104"/>
+	<entry key="PREWDRWALEDINTOR"       	value="N"/>
+	<entry key="RTRSTFREQ"              	value="10001"/> 
+	<entry key="AMTCRDFLG"              	value="N"/>
+	<entry key="INTBERFLG"              	value="Y"/>
+	<entry key="ARRGMNTTEDTO"           	value="28"/>
+	<entry key="ACCTACQTYPCOD"          	value="11"/>
+	<entry key="ACCTBLOCK"              	value="N"/>
+	<entry key="ACCTCHKBKFLG"           	value="N"/>
+	<entry key="ACCTJNTIND"			value="2"/>
+	<entry key="BILLPAYINDIT"           	value="N"/>
+	<entry key="DEPACCTDORINDIT"        	value="N"/>
+	<entry key="DEPAUTROLLINDIT"        	value="N"/>
+	<entry key="DAYCNTCONTION"        	value="3"/>	
+	<entry key="FROZEN"                 	value="N"/>
+	<entry key="STPPAYMNT"              	value="N"/>
+	<entry key="ONLNBNKRELINDIT"        	value="Y"/>
+	<entry key="CUSMTYP"                	value="1"/>
+	<entry key="TRANALRELSHIPINDIT"     	value="R"/>
+	<entry key="ACCTSTATY"                	value="1"/>
+	<entry key="ACCTSTATEY"                	value="2"/>
+	<entry key="DAYCOUT"                	value="2"/>
+	<entry key="DEPCLOSRESY"                value="1"/>
+	<entry key="DEPCLOSRESD"                value="13"/>
+	<entry key="DEPINTACCRINDITD"           value="2"/>
+	<entry key="DEPINTACCRINDITED"          value="1"/>
+	<entry key="DEPINTPAYFRQCODD"           value="10003"/>
+	<entry key="DEPINTPAYFRQCODED"          value="10001"/>
+	<entry key="SWPACCTINDTOR"          	value="6"/>
+	<entry key="PLEDINDOR"          	value="N"/>
+	<entry key="CHANNELCRA"          	value="17"/>
+	<entry key="CHANNELMMTD"          	value="5"/>
+	<entry key="ACCTINTFLG"          	value="NEXLIND"/>	
+	<entry key="WHLSLFNDINDIT"          	value="N"/>	
+	<entry key="GFRN"          	        value="Not_Applicable"/>	
+	
+
+
+  </util:map>    
+  
+<util:map id="INDTDEPOHEAD" map-class="java.util.LinkedHashMap">
+	<entry key="FILESPERATOR"    	value="_"/>
+	<entry key="FILESTARTSWITH"     value="gn"/>
+	<entry key="CSIAPPID"   	value="33429"/>
+	<entry key="FILEDATATYPE"   	value="dep"/>
+	<entry key="FILEINDICATOR"  	value="id"/>
+	<entry key="SUBSYSID"  		value="000"/>
+	<entry key="FILETYPE"  		value="dat"/>
+	<entry key="ZIPTYPE"  		value="gz"/>
+	<entry key="HEAD"  		value="H"/>
+	<entry key="HEADF"  		value="F"/>
+	<entry key="HEADFEED"  		value="FEED"/>
+	<entry key="TRAILER"  		value="T"/>
+	<entry key="TSRCSYSID"  	value="33429"/>
+	<entry key="TTDLV"  		value="TDLV15.0"/>
+	<entry key="DETAILS"  		value="D"/>
+ </util:map>
+ 
+<util:map id="INDIEXTE" map-class="java.util.LinkedHashMap">
+ 	<entry key="SOURSYSID"                	value="33429"/> 
+	<entry key="PRODSYSIDNTIF"           	value="33429"/> 
+	<entry key="RECDTYP"                 	value="A"/>
+	<entry key="ELGFROVRDRFFLG"             value="N"/>
+	<entry key="OVRDRFINDI"  	value="N"/>
+	<entry key="ARGBUSINTYPE"  	value="3"/>
+	<entry key="OPRDEPFLAG"  	value="N"/>
+	<entry key="IRAINDICTR"  	value="N"/>
+	<entry key="DEPOISURIND"  	value="N"/>
+	<entry key="AUTOMTI"  		value="N"/>
+	<entry key="PREFDINDFG"  	value="N"/>
+	<entry key="FAIRVALIND"  	value="N"/>
+	<entry key="FIFCTDEPIND"  	value="N"/>
+	<entry key="NREGFUNDID"  	value="N"/>
+	<entry key="ISUEROPT"  		value="N"/>
+	<entry key="BOOKLEDGBR"  	value="0"/>
+	<entry key="BASENUMBR"  	value="0"/>
+	<entry key="RATETENOR"  	value="ON"/>
+	<entry key="FLCAPFLG"  		value="4"/>
+	<entry key="DPAYFLG"  		value="N"/>	
+</util:map>    
+  
+<util:map id="INDIEXTEHEAD" map-class="java.util.LinkedHashMap">
+	<entry key="FILESPERATOR"    	value="_"/>
+	<entry key="FILESTARTSWITH"     value="gn"/>
+	<entry key="CSIAPPID"   	value="33429"/>
+	<entry key="FILEDATATYPE"   	value="dep"/>
+	<entry key="FILEINDICATOR"  	value="ide"/>
+	<entry key="SUBSYSID"  		value="000"/>
+	<entry key="FILETYPE"  		value="dat"/>
+	<entry key="ZIPTYPE"  		value="gz"/>
+	<entry key="HEAD"  		value="H"/>
+	<entry key="HEADF"  		value="F"/>
+	<entry key="HEADFEED"  		value="FEED"/>
+	<entry key="TRAILER"  		value="T"/>
+	<entry key="TSRCSYSID"  	value="33429"/>
+	<entry key="TTDLV"  		value="TDLV15.0"/>
+	<entry key="DETAILS"  		value="D"/>
+ </util:map>
+ 
+
+
+<util:map id="SUPPLBAL" map-class="java.util.LinkedHashMap">
+ 	<entry key="SRCSYSID"                	value="33429"/> 
+	<entry key="PROSYSIDNTIF"           	value="33429"/> 
+	<entry key="RECTYPE"                 	value="A"/>
+</util:map>    
+  
+<util:map id="SUPPLBALHEAD" map-class="java.util.LinkedHashMap">
+	<entry key="FILESPERATOR"    	value="_"/>
+	<entry key="FILESTARTSWITH"     value="gn"/>
+	<entry key="CSIAPPID"   	value="33429"/>
+	<entry key="FILEDATATYPE"   	value="dep"/>
+	<entry key="FILEINDICATOR"  	value="sb"/>
+	<entry key="SUBSYSID"  		value="000"/>
+	<entry key="FILETYPE"  		value="dat"/>
+	<entry key="ZIPTYPE"  		value="gz"/>
+	<entry key="HEAD"  		value="H"/>
+	<entry key="HEADF"  		value="F"/>
+	<entry key="HEADFEED"  		value="FEED"/>
+	<entry key="TRAILER"  		value="T"/>
+	<entry key="TSRCSYSID"  	value="33429"/>
+	<entry key="TTDLV"  		value="TDLV15.0"/>
+	<entry key="DETAILS"  		value="D"/>
+ </util:map>
+ 
+
+ <util:map id="ARRINVPY" map-class="java.util.LinkedHashMap">
+  	<entry key="SOUSYSIDTF"                	value="33429"/> 
+ 	<entry key="PRODSYSIDTF"           	value="33429"/> 
+ 	<entry key="RECTYP"                 	value="A"/>
+ 	<entry key="ARRINVPTYPLTY"              value="1"/>
+ 	<entry key="PERAMT"                 	value="100"/>
+ 	<entry key="INVPTYSTID"                 value="3"/>
+ </util:map>    
+   
+ <util:map id="ARRINVPYHEAD" map-class="java.util.LinkedHashMap">
+ 	<entry key="FILESPERATOR"    	value="_"/>
+ 	<entry key="FILESTARTSWITH"     value="gn"/>
+ 	<entry key="CSIAPPID"   	value="33429"/>
+ 	<entry key="FILEDATATYPE"   	value="dep"/>
+ 	<entry key="FILEINDICATOR"  	value="ip"/>
+ 	<entry key="SUBSYSID"  		value="000"/>
+ 	<entry key="FILETYPE"  		value="dat"/>
+ 	<entry key="ZIPTYPE"  		value="gz"/>
+ 	<entry key="HEAD"  		value="H"/>
+ 	<entry key="HEADF"  		value="F"/>
+ 	<entry key="HEADFEED"  		value="FEED"/>
+ 	<entry key="TRAILER"  		value="T"/>
+ 	<entry key="TSRCSYSID"  	value="33429"/>
+ 	<entry key="TTDLV"  		value="TDLV15.0"/>
+ 	<entry key="DETAILS"  		value="D"/>
+ </util:map>
+<util:map id="DEPCOLAT" map-class="java.util.LinkedHashMap">
+ 	<entry key="SRCSYSID"                	value="33429"/> 
+</util:map>    
+ <util:map id="DEPCOLATHEAD" map-class="java.util.LinkedHashMap">
+ 	<entry key="FILESPERATOR"    	value="_"/>
+  	<entry key="FILESTARTSWITH"     value="gn"/>
+  	<entry key="CSIAPPID"   	value="33429"/>
+  	<entry key="FILEDATATYPE"   	value="dep"/>
+  	<entry key="FILEINDICATOR"  	value="col"/>
+  	<entry key="SUBSYSID"  		value="000"/>
+  	<entry key="FILETYPE"  		value="dat"/>
+ 	<entry key="ZIPTYPE"  		value="gz"/>
+ 	<entry key="HEAD"  		value="H"/>
+	<entry key="HEADF"  		value="F"/>
+	<entry key="HEADFEED"  		value="FEED"/>
+	<entry key="TRAILER"  		value="T"/>
+	<entry key="TSRCSYSID"  	value="33429"/>
+	<entry key="TTDLV"  		value="TDLV15.0"/>
+ 	<entry key="DETAILS"  		value="D"/>
+ </util:map>
+ 
+<util:map id="GENZONE" map-class="java.util.LinkedHashMap">
+	<entry key="149"    	value="America/New_York"/>
+	<entry key="225"     	value="Europe/London"/>
+	<entry key="374"   	value="Asia/Singapore"/>	
+ </util:map>
+
+<util:map id="REGIONCODE" map-class="java.util.LinkedHashMap">
+	<entry key="149"    	value="N"/>
+	<entry key="225"     	value="E"/>
+	<entry key="374"   	value="A"/>	
+ </util:map>
+ 
+<util:map id="COUNTRYCODE" map-class="java.util.LinkedHashMap">
+	<entry key="149"    	value="US"/>
+	<entry key="225"     	value="UK"/>
+	<entry key="374"   	value="SG"/>	
+ </util:map>
+<util:map id="REGIONSPATH" map-class="java.util.LinkedHashMap">
+	<entry key="149"    	value="NA"/>
+	<entry key="225"     	value="EMEA"/>
+	<entry key="374"   	value="ASPAC"/>
+ </util:map>
+ <util:map id="LOCPRODCATCODE" map-class="java.util.LinkedHashMap">
+ 	<entry key="3"    	value="MMA"/>
+ 	<entry key="4"     	value="SAV"/>
+ 	<entry key="5"   	value="CDS"/>
+ </util:map>
+  
+   <util:map id="BRANCHID" map-class="java.util.LinkedHashMap">
+   	<entry key="9000000001"  value="9000000001"/>
+   	<entry key="9000000004"  value="9000000004"/>
+  </util:map> 
+   <util:map id="LISTBOX" map-class="java.util.LinkedHashMap">
+     	<entry key="Y"    	value="Yes"/>
+     	<entry key="N"     	value="No"/>
+  </util:map> 
+   <util:map id="MATURITYTYPE" map-class="java.util.LinkedHashMap">
+       	<entry key="3"    	value="3"/>
+       	<entry key="4"     	value="4"/>
+  </util:map>
+  <util:map id="LIQUIDTYSEN" map-class="java.util.LinkedHashMap">
+       	<entry key="1"    	value="1"/>
+       	<entry key="2"     	value="2"/>
+  </util:map>   
+  <util:map id="ENTPSTRDPRODID" map-class="java.util.LinkedHashMap">
+	<entry key="1220"    	value="31 Day Notice Account [L5]"/>
+	<entry key="12"     	value="Money Market Deposit Account (MMDA) [L4]"/>
+	<entry key="368"     	value="Reserve Accounts [L4]"/>
+	<entry key="1219"     	value="Other IB Deposits [L4]"/>
+  </util:map>   
+  <util:map id="BALANCETYPE" map-class="java.util.LinkedHashMap">
+	<entry key="1"       value="1"/>
+	<entry key="1004"    value="1004"/>
+	<entry key="1005"    value="1005"/>
+   </util:map> 
+    <util:map id="GLACCT1" map-class="java.util.LinkedHashMap">
+  	<entry key="3005700"   value="3005700"/>
+  	<entry key="3009000"   value="3009000"/>
+  	<entry key="3022000"   value="3022000"/>
+  	<entry key="3005000"   value="3005000"/>
+  	<entry key="3800800"   value="3800800"/>
+  	<entry key="0130300"   value="0130300"/>
+  	<entry key="0130100"   value="0130100"/>
+
+   </util:map> 
+      <util:map id="GLACCT2" map-class="java.util.LinkedHashMap">
+    	<entry key="001"    	value="001"/>
+    	<entry key="007"     	value="007"/>
+    	<entry key="004"     	value="004"/>
+     	<entry key="002"     	value="002"/>
+     	<entry key="012"     	value="012"/>
+     	<entry key="015"     	value="015"/>
+    </util:map> 
+  
+  	 
+</beans>

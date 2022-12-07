@@ -1,0 +1,111 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	   http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+<!-- Added By Soori on June 30 2011 to replace the data of fo_prod_settlemethod_m with xml -->
+<util:map id="settleMethod_SPID" map-class="java.util.TreeMap">
+	<entry key="0"   value="T"/>
+	<entry key="1"   value="T+1"/>
+	<entry key="2"   value="T+2"/>
+	<entry key="3"   value="T+3"/>
+	<entry key="4"   value="OTHER"/>
+</util:map>
+
+<util:map id="dealerCodes" map-class="java.util.TreeMap">
+	<entry key="100"   value="100-TTS-U.S."/>
+	<entry key="110"   value="110-Custody-U.S."/>
+	<entry key="810"   value="810-TTS-U.S."/>
+	<entry key="811"   value="811-Custody-U.S."/>
+	<entry key="910"   value="910-TTS-U.S."/>
+	<entry key="911"   value="911-Custody-U.S."/>
+	<entry key="200"   value="200-TTS-EMEA"/>
+	<entry key="210"   value="210-TTS-Ireland-EMEA"/>
+	<entry key="220"   value="220-Custody-EMEA"/>
+	<entry key="820"   value="820-TTS-EMEA"/>
+	<entry key="920"   value="920-TTS-EMEA"/>
+	<entry key="821"   value="821-Custody-EMEA"/>
+	<entry key="921"   value="921-Custody-EMEA"/>
+	<entry key="300"   value="300-TTS-NY DDA"/>
+	<entry key="320"   value="320-Custody-NY DDA"/>
+	<entry key="830"   value="830-TTS-EMEA"/>
+	<entry key="930"   value="930-TTS-EMEA"/>
+	<entry key="831"   value="831-Custody-EMEA"/>
+	<entry key="931"   value="931-Custody-EMEA"/>
+	<entry key="400"   value="400-TTS-ASIA-Europe"/>
+	<entry key="401"   value="401-TTS-ASIA-Singapore"/>
+	<entry key="402"   value="402-TTS-ASIA-Hongkong"/>
+	<entry key="840"   value="840-TTS-ASIA-Europe"/>
+	<entry key="940"   value="940-TTS-ASIA-Europe"/>
+	<entry key="841"   value="841-TTS-ASIA-Singapore"/>
+	<entry key="941"   value="941-TTS-ASIA-Singapore"/>
+	<entry key="842"   value="842-TTS-ASIA-Hongkong"/>
+	<entry key="942"   value="942-TTS-ASIA-Hongkong"/>
+	<entry key="120"   value="120-CCB-U.S."/>
+	<entry key="130"   value="130-CCB-U.S."/>
+</util:map>
+
+<util:map id="eventHistory" map-class="java.util.LinkedHashMap">
+	<entry key="1"     value="Yesterday"/>
+	<entry key="2"     value="2Days ago"/>
+	<entry key="7"     value="One Week"/>
+	<entry key="30"    value="One Month"/>
+	<entry key="ALL"   value="Custom Date"/>
+ </util:map>
+
+<util:map id="RegionsManaged" map-class="java.util.LinkedHashMap">
+	<entry key="100"     value="Asia"/>
+	<entry key="101"     value="EMEA"/>
+	<entry key="102"     value="LATAM"/>
+	<entry key="103"    value="NA"/>
+	<entry key="104"    value="Mexico"/>
+	<entry key="105"    value="Japan"/>
+  </util:map>
+
+<util:map id="CorpTypes" map-class="java.util.LinkedHashMap">
+	<entry key="1000"     value="Corp"/>
+	<entry key="1001"     value="FI"/>
+	<entry key="1002"     value="PS"/>
+  </util:map>
+
+<util:map id="MMTDTenors" map-class="java.util.LinkedHashMap">
+	<entry key="31"     value="31"/>
+	<entry key="45"     value="45"/>
+	<entry key="60"     value="60"/>
+	<entry key="90"     value="90"/>
+  </util:map>
+
+<util:map id="NoOfStrikes" map-class="java.util.LinkedHashMap">
+	<entry key="1"     value="1"/>
+	<entry key="2"     value="2"/>
+	<entry key="3"     value="3"/>
+	<entry key="4"     value="4"/>
+	<entry key="5"     value="5"/>
+	<entry key="6"     value="6"/>
+</util:map>
+<util:map id="DdaActType" map-class="java.util.LinkedHashMap">
+	<entry key="0"     value="All"/>
+	<entry key="1"     value="Non-FO"/>
+	 
+</util:map>
+<util:map id="KycPrefToRem" map-class="java.util.LinkedHashMap">
+	<entry key="10000232"     value="10000547"/>
+	<entry key="10000233"     value="10000548"/>
+	<entry key="10000234"     value="10002547"/>
+	<entry key="10000235"     value="10002247"/>
+	<entry key="10000236"     value="10002548"/>	 
+	<entry key="10000237"     value="10002248"/>	 
+</util:map>
+<util:map id="KycStaticData" map-class="java.util.LinkedHashMap">
+	<entry key="CSIID"     value="33429"/>
+	<entry key="SOURCESYS"     value="OLI"/> 
+</util:map>
+<util:map id="NAVTypeDesc" map-class="java.util.LinkedHashMap">
+	<entry key="C"     value="CNAV"/>
+	<entry key="L"     value="LVNAV"/>
+	<entry key="F"     value="FNAV"/>
+	<entry key="V"     value="VNAV"/>
+</util:map>
+
+</beans>
